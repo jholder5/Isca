@@ -108,6 +108,7 @@
     equinox_day =  0.75             ! SEASONS
     atm_abs = 0.2                   ! default is 0.0
     odp = 1                         ! FRIERSON kappa optical depth parameter
+    ir_tau_pole = 0                 ! Set to zero
 /
 
 &diag_manager_nml
