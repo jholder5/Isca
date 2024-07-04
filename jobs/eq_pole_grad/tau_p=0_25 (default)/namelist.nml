@@ -4,7 +4,7 @@
 
 ! This section gives info to give to Slurm when running experiment
 &experiment_details
-   name = 'tau_sweep/aquaplanet/k=1'  ! Name of experiment e.g. data saved to folder $GFDL_DATA/name.
+   name = 'eq_pole_grad/tau_p=0'  ! Name of experiment e.g. data saved to folder $GFDL_DATA/name.
    input_dir = '/gpfs1/home/jamd1/Isca/jobs/tau_sweep/aquaplanet/k=1/'
    n_months_total = 84           ! Total duration of simulation in months.
    n_months_job = 21             ! Approximate duration of each job of the simulation in months.
