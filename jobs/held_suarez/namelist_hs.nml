@@ -1,7 +1,7 @@
  This section gives info to give to SLURM when running experiment
 &experiment_details
    name = 'held_suarez'         ! Name of experiment
-   input_dir = '/gpfs1/home/jkh23/isca_jobs/held_suarez'
+   input_dir = '/gpfs1/home/jkh23/isca_jobs/experiment/held_suarez'
    n_months_total = 2
    n_months_job = 2
    n_nodes = 1
