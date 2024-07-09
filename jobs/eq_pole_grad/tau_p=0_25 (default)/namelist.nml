@@ -6,8 +6,8 @@ er! This experiment is the same as frierson_test_case but with a mixed layer dep
 &experiment_details
    name = 'eq_pole_grad/tau_p=0_25'  ! Name of experiment e.g. data saved to folder $GFDL_DATA/name.
    input_dir = '/gpfs1/home/jkh23/isca_jobs/experiment/eq_pole_grad/tau_p=0_25/'
-   n_months_total = 12           ! Total duration of simulation in months.
-   n_months_job = 12             ! Approximate duration of each job of the simulation in months.
+   n_months_total = 84           ! Total duration of simulation in months.
+   n_months_job = 84             ! Approximate duration of each job of the simulation in months.
                                 ! If n_months_total=12 and n_months_job=6, would have 2 jobs, each of length 6 months.
    n_nodes = 1                  ! Number of nodes to run job on (Slurm info).
    n_cores = 32                 ! Number of cores for each node to run job on (Slurm info).
